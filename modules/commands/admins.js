@@ -16,5 +16,4 @@ module.exports.run = async ({ api, event, args, client, utils }) => {
 	if (args[0] == "1") {
 		return api.sendMessage("「 Admin 1 」\nTên: Trần Trọng Mạnh\nLiên hệ:\nhttps://www.facebook.com/ttm130", event.threadID, event.messageID);
 	}
-
 }
